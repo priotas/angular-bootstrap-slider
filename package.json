@@ -1,6 +1,6 @@
 {
-  "name": "angular-bootstrap-slider",
-  "version": "0.1.26",
+  "name": "@priotas/angular-bootstrap-slider",
+  "version": "1.1.26",
   "description": "An angular directive for seiyria-bootstrap-slider",
   "main": "slider.js",
   "devDependencies": {
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seiyria/angular-bootstrap-slider.git"
+    "url": "git+https://github.com/priotas/angular-bootstrap-slider.git"
   },
   "author": "Kyle Kemp <kyle@seiyria.com>",
   "license": "MIT",
