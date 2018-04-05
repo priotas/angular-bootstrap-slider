@@ -32,10 +32,11 @@ angular.module('ui.bootstrap-slider', [])
                 scale: '=',
                 focus: '=',
                 rangeHighlights: '=',
+                bsVersion: '=',
                 formatter: '&',
                 onStartSlide: '&',
                 onStopSlide: '&',
-                onSlide: '&'
+                onSlide: '&',
             },
             link: function ($scope, element, attrs, ngModelCtrl, $compile) {
                 var ngModelDeregisterFn, ngDisabledDeregisterFn;
@@ -76,6 +77,7 @@ angular.module('ui.bootstrap-slider', [])
                     setOption('rangeHighlights', $scope.rangeHighlights);
                     setOption('scale', $scope.scale, 'linear');
                     setOption('focus', $scope.focus);
+                    setOption('bsVersion', $scope.bsVersion);
 
                     setFloatOption('min', $scope.min, 0);
                     setFloatOption('max', $scope.max, 10);
